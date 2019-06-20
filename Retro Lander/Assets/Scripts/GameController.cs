@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    private void OnGameOver(){
+    public void OnGameOver(){
         menuGameOver.SetActive(true);
         gameHUD.SetActive(false);
         Time.timeScale = 0;
