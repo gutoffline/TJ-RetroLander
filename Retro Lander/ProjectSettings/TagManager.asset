@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Montanha
+  - AreaSegura
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - AreaSegura
+  - Montanha
   - 
   - 
   - 
@@ -49,6 +51,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3801771429
+    locked: 0
+  - name: Montanha
+    uniqueID: 1852348485
+    locked: 0
+  - name: AreaSegura
+    uniqueID: 3233689057
     locked: 0
   - name: Default
     uniqueID: 0
