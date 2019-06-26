@@ -104,6 +104,14 @@ public class PlayerController : MonoBehaviour {
                     GameController gc = GameObject.FindWithTag("GameController").GetComponent<GameController>();
                     this.enabled = false;
                     propulsorFX.enabled = false;
+                    if (PlayerPrefs.HasKey("RECORDE")) {
+                        if (combustivel > PlayerPrefs.GetInt("RECORDE")) {
+                            PlayerPrefs.SetInt("RECORDE", (int)combustivel);
+                        }
+                    }
+                    else {
+                        PlayerPrefs.SetInt("RECORDE", (int)combustivel);
+                    }
                     gc.OnGameWin();
                 }
                 break;

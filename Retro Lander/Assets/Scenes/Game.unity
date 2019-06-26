@@ -1327,7 +1327,7 @@ MonoBehaviour:
   velocidade: 50
   combustivel: 1000
   consumoCombustivel: 1
-  velocidadeLimitePouso: 50
+  velocidadeLimitePouso: 1000
   raycastLayerMask:
     serializedVersion: 2
     m_Bits: 768
